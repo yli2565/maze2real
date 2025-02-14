@@ -1,0 +1,12 @@
+name: maze2real
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pillow
+  - numpy
+  - matplotlib
+  - pandas
+  - stable-baselines3[extra]
+  - wandb
