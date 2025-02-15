@@ -39,6 +39,8 @@ First just try GRU
 
 env: git@github.com:yli2565/memory-maze.git, use it as a base env, we might need to modify it. I've already add it as submodule in this project
 
+conda env: maze2real, I've already installed it
+
 logging: Weights & Biases
 
 network: PyTorch, seperate from the agent,implement each network in a different file, we might need to modify it frequently

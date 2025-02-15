@@ -3,4 +3,8 @@ numpy
 matplotlib
 pandas
 stable-baselines3[extra]
+gymnasium
+gym
+dm_env
+dm_control
 wandb

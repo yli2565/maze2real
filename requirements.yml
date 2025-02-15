@@ -9,4 +9,8 @@ dependencies:
   - matplotlib
   - pandas
   - stable-baselines3[extra]
+  - gymnasium
+  - gym
+  - dm-env
+  - dm-control
   - wandb
