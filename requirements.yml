@@ -1,16 +1,24 @@
 name: maze2real
 channels:
+  - pytorch
+  - nvidia
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.10
+  - cudatoolkit=11.8
+  - python=3.12
+  - debugpy
   - pillow
+  - imageio
   - numpy
   - matplotlib
   - pandas
+  - pygame
   - stable-baselines3[extra]
+  - ray-rllib
   - gymnasium
-  - gym
   - dm-env
   - dm-control
   - wandb
+  pip:
+    - gym

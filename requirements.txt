@@ -1,8 +1,12 @@
+debugpy
 pillow
+imageio
 numpy
 matplotlib
 pandas
+pygame
 stable-baselines3[extra]
+ray[default]
 gymnasium
 gym
 dm_env
